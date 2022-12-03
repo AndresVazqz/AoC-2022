@@ -1,6 +1,5 @@
 import { readFileSync } from 'fs';
 
-
 const input: string = readFileSync('input.txt','utf8');
 
 var rounds = input.split(/\r?\n/);
