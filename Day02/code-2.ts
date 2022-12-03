@@ -8,7 +8,7 @@ var result = 0;
 rounds.forEach(x => {
     var elf = x[0];
     var me = x[2];
-    var newMe;
+    var newMe: string;
     if (me == 'X') {
         // lose
         if (elf == 'A') newMe = 'Z';
